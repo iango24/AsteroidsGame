@@ -14,11 +14,7 @@ public void draw(){
     nightSky[i].show();
   }                  
   davyJones.move();
-  davyJones.show();
-  System.out.println("Xspeed: " + davyJones.getXspeed());
-  System.out.println("Yspeed: " + davyJones.getYspeed());
-  System.out.println("Angle: " + davyJones.getDirection());
-  
+  davyJones.show();  
 }
   public void keyPressed(){ //HYPERSPACE
     if (key == 'f'){
